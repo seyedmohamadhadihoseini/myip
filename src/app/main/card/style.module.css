@@ -1,0 +1,21 @@
+
+.main {
+    padding: 10px;
+    color: antiquewhite;
+    border-bottom: 1px solid rgb(16, 69, 69);
+    margin-right: 15px;
+}
+.main h2{
+    color: burlywood;
+}
+.inner{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: large;
+
+    margin-bottom: 5px;
+}
+
+.inner span{
+    width: max-content;
+}
