@@ -10,7 +10,7 @@ export default async function Home() {
 
 
   return <div className={style.main}>
-    <MyIpHeader ip={ip} country={country} city={city} />
-    <MyIpMain ip={ip} city={city} country={country} isp={isp} lat={lat} lon={lon} timezone={timezone} os={os||""}/>
+    <MyIpHeader ip={ip||""} country={country} city={city} />
+    <MyIpMain ip={ip||""} city={city} country={country} isp={isp} lat={lat} lon={lon} timezone={timezone} os={os||""}/>
   </div>
 }
